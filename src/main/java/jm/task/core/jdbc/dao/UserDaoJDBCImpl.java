@@ -38,6 +38,7 @@ public class UserDaoJDBCImpl implements UserDao {
     }
 
 
+
     public void dropUsersTable() {
         try (Statement statement = connection.createStatement()) {
             String sql = """
