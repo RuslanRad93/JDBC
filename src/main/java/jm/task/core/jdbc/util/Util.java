@@ -10,7 +10,6 @@ public class Util {
     private static final String LOGIN = "postgres";
     private static final String PASSWORD = "postgres";
 
-//    private static Connection connection;
 
     public static Connection getConnection() {
         try {
@@ -19,9 +18,4 @@ public class Util {
             throw new RuntimeException(e);
         }
     }
-
-//    public static void setConnection(Connection connection) {
-//        Util.connection = connection;
-//    }
-    // реализуйте настройку соеденения с БД
 }
